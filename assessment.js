@@ -44,12 +44,7 @@ while(  i < length)
                     )
                     i++;
                     j=0;
-
-
-             }
-
-             
-}
-    
+             }          
+}   
 result.result_array = result_array;
 console.log(result_array);
