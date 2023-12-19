@@ -1,4 +1,6 @@
-let fs = require("JavaScript/heartrate.json");
+const process = require('process');
+let data = process.cwd+"/heartrate.json"
+let fs = require(data);
 var length = fs.length -1 ;
 var max =0;
 var min =0
