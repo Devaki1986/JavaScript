@@ -1,4 +1,4 @@
-let fs = require("/heartrate.json");
+let fs = require("ws/heartrate.json");
 var length = fs.length -1 ;
 var max =0;
 var min =0
