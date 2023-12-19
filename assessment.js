@@ -1,5 +1,5 @@
 const process = require('process');
-let data = process.cwd+"/heartrate.json"
+let data = process.cwd()+"/heartrate.json"
 let fs = require(data);
 var length = fs.length -1 ;
 var max =0;
